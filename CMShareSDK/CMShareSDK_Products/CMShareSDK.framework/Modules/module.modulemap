@@ -1,0 +1,6 @@
+framework module CMShareSDK {
+  umbrella header "CMShareSDK.h"
+
+  export *
+  module * { export * }
+}

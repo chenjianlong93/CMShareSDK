@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+#source 'ssh://git@phab.srv.codemao.cn/source/ios_common_spec_repo.git'
+#source 'https://github.com/xww1993/CMAccountSDK_Test.git'
+workspace 'CMShareSDK.xcworkspace'
+project 'CMShareSDK.xcodeproj'
+
+platform :ios, '8.0'
+
+target 'CMShareSDK' do
+    project 'CMShareSDK.xcodeproj'
+    pod 'WechatOpenSDK'
+    pod 'UMengUShare/Social/QQ'   
+
+end
+
+
