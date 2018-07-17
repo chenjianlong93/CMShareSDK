@@ -74,7 +74,7 @@ static id _thumbImage;
         return;
     }
     if ([shareImage isKindOfClass:[UIImage class]]) {
-        _shareImage =  UIImageJPEGRepresentation(_shareImage, 1); //UIImagePNGRepresentation(_shareImage) ? UIImagePNGRepresentation(_shareImage) :
+        _shareImage =  UIImageJPEGRepresentation(shareImage, 1); //UIImagePNGRepresentation(_shareImage) ? UIImagePNGRepresentation(_shareImage) :
     }else if ([shareImage isKindOfClass:[NSString class]]) {
         NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString: shareImage]];
         _shareImage = data;
@@ -111,7 +111,7 @@ static id _thumbImage;
 
 @implementation CMShareWebpageModel
 
-+ (CMShareWebpageModel *)shareObjectWithTitle:(NSString *)title descr:(NSString *)descr thumImage:(id)thumImage {
++ (CMShareWebpageModel *)shareModelWithTitle:(NSString *)title descr:(NSString *)descr thumImage:(id)thumImage {
     CMShareWebpageModel *model = [CMShareWebpageModel new];
     model.title = title;
     model.descr = descr;
@@ -123,7 +123,7 @@ static id _thumbImage;
 
 @implementation CMShareEmotionModel
 
-+ (CMShareEmotionModel *)shareObjectWithTitle:(NSString *)title descr:(NSString *)descr thumImage:(id)thumImage {
++ (CMShareEmotionModel *)shareModelWithTitle:(NSString *)title descr:(NSString *)descr thumImage:(id)thumImage {
     CMShareEmotionModel *model = [CMShareEmotionModel new];
     model.title = title;
     model.descr = descr;
@@ -135,7 +135,7 @@ static id _thumbImage;
 
 @implementation CMShareFileModel
 
-+ (CMShareFileModel *)shareObjectWithTitle:(NSString *)title descr:(NSString *)descr thumImage:(id)thumImage {
++ (CMShareFileModel *)shareModelWithTitle:(NSString *)title descr:(NSString *)descr thumImage:(id)thumImage {
     CMShareFileModel *model = [CMShareFileModel new];
     model.title = title;
     model.descr = descr;
@@ -147,7 +147,7 @@ static id _thumbImage;
 
 @implementation CMShareMiniProgramModel
 
-+ (CMShareMiniProgramModel *)shareObjectWithTitle:(NSString *)title descr:(NSString *)descr thumImage:(id)thumImage {
++ (CMShareMiniProgramModel *)shareModelWithTitle:(NSString *)title descr:(NSString *)descr thumImage:(id)thumImage {
     CMShareMiniProgramModel *model = [CMShareMiniProgramModel new];
     model.title = title;
     model.descr = descr;

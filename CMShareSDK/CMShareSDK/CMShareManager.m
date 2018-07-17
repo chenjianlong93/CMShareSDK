@@ -129,7 +129,7 @@
         case EQQAPIAPPNOTREGISTED:
         case EQQAPIAPPSHAREASYNC:
         case EQQAPIQQNOTSUPPORTAPI_WITH_ERRORSHOW:
-        case EQQAPISHAREDESTUNKNOWN:
+//        case EQQAPISHAREDESTUNKNOWN:
             self.completionBlock(CMShareErrorCode_Common, @"未知错误类型");
             break;
         case EQQAPISENDFAILD:

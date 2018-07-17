@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "WXApiObject.h"
 
 @interface CMShareModel : NSObject
 
@@ -69,7 +68,7 @@
  */
 @property (nonatomic, retain) id shareImage;
 
-/** 分享图片数组，支持 UIImage、NSData 类型
+/** 分享图片数组，支持 UIImage、NSData     类型
  * @note 仅支持分享到：
  *      微博平台，最多可分享9张图片
  *      QZone平台，最多可分享20张图片
@@ -176,7 +175,7 @@
  * @param thumImage 缩略图（UIImage或者NSData类型，或者image_url）
  *
  */
-+ (CMShareWebpageModel *)shareObjectWithTitle:(NSString *)title
++ (CMShareWebpageModel *)shareModelWithTitle:(NSString *)title
                                          descr:(NSString *)descr
                                      thumImage:(id)thumImage;
 
@@ -197,7 +196,7 @@
  * @param thumImage 缩略图（UIImage或者NSData类型，或者image_url）
  *
  */
-+ (CMShareEmotionModel *)shareObjectWithTitle:(NSString *)title
++ (CMShareEmotionModel *)shareModelWithTitle:(NSString *)title
                                         descr:(NSString *)descr
                                     thumImage:(id)thumImage;
 
@@ -221,7 +220,7 @@
  * @param thumImage 缩略图（UIImage或者NSData类型，或者image_url）
  *
  */
-+ (CMShareFileModel *)shareObjectWithTitle:(NSString *)title
++ (CMShareFileModel *)shareModelWithTitle:(NSString *)title
                                      descr:(NSString *)descr
                                  thumImage:(id)thumImage;
 
@@ -239,7 +238,7 @@
 
 @property (nonatomic, assign) BOOL withShareTicket;   //是否使用带 shareTicket 的转发
 
-@property (nonatomic, assign) WXMiniProgramType miniProgramType;  // 分享小程序的版本（正式，开发，体验）
+@property (nonatomic, assign) NSInteger miniProgramType;  // 分享小程序的版本（正式，开发，体验）
 
 /**
  * @param title 标题
@@ -247,7 +246,7 @@
  * @param thumImage 缩略图（UIImage或者NSData类型，或者image_url）
  *
  */
-+ (CMShareMiniProgramModel *)shareObjectWithTitle:(NSString *)title
++ (CMShareMiniProgramModel *)shareModelWithTitle:(NSString *)title
                                             descr:(NSString *)descr
                                         thumImage:(id)thumImage;
 

@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F478B0A20FDE2DF00E0660D /* QQApiRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F478AFD20FDE2DE00E0660D /* QQApiRequestHandler.h */; };
+		0F478B0B20FDE2DF00E0660D /* CMShareManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F478AFE20FDE2DE00E0660D /* CMShareManager.h */; };
+		0F478B0C20FDE2DF00E0660D /* CMShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F478AFF20FDE2DE00E0660D /* CMShareManager.m */; };
+		0F478B0D20FDE2DF00E0660D /* CMShareModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F478B0020FDE2DF00E0660D /* CMShareModel.h */; };
+		0F478B0E20FDE2DF00E0660D /* CMShareHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F478B0120FDE2DF00E0660D /* CMShareHelper.h */; };
+		0F478B0F20FDE2DF00E0660D /* WechatApiRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F478B0220FDE2DF00E0660D /* WechatApiRequestHandler.h */; };
+		0F478B1020FDE2DF00E0660D /* WechatConfiguredMessageData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F478B0320FDE2DF00E0660D /* WechatConfiguredMessageData.h */; };
+		0F478B1120FDE2DF00E0660D /* WechatApiRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F478B0420FDE2DF00E0660D /* WechatApiRequestHandler.m */; };
+		0F478B1220FDE2DF00E0660D /* QQApiRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F478B0520FDE2DF00E0660D /* QQApiRequestHandler.m */; };
+		0F478B1320FDE2DF00E0660D /* CMShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F478B0620FDE2DF00E0660D /* CMShareModel.m */; };
+		0F478B1420FDE2DF00E0660D /* WechatConfiguredMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F478B0720FDE2DF00E0660D /* WechatConfiguredMessageData.m */; };
+		0F478B1520FDE2DF00E0660D /* CMShareHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F478B0820FDE2DF00E0660D /* CMShareHelper.m */; };
+		0F478B1620FDE2DF00E0660D /* CMShareEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F478B0920FDE2DF00E0660D /* CMShareEnums.h */; };
 		4771FE07B6C2ED064530288F /* libPods-CMShareSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5434C7E6470B623A5833E73E /* libPods-CMShareSDK.a */; };
 		8519788D20F7317200D852BF /* CMShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8519788320F7317200D852BF /* CMShareSDK.framework */; };
 		8519789220F7317200D852BF /* CMShareSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8519789120F7317200D852BF /* CMShareSDKTests.m */; };
 		8519793720F7712600D852BF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8519793620F7712600D852BF /* Info.plist */; };
 		8519794C20F7746F00D852BF /* CMShareSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8519793E20F7746E00D852BF /* CMShareSDK.h */; };
-		8519794D20F7746F00D852BF /* QQApiRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8519793F20F7746E00D852BF /* QQApiRequestHandler.h */; };
-		8519794E20F7746F00D852BF /* CMShareEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 8519794020F7746E00D852BF /* CMShareEnums.h */; };
-		8519794F20F7746F00D852BF /* CMShareManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8519794120F7746E00D852BF /* CMShareManager.h */; };
-		8519795020F7746F00D852BF /* QQApiRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8519794220F7746E00D852BF /* QQApiRequestHandler.m */; };
-		8519795120F7746F00D852BF /* CMShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8519794320F7746E00D852BF /* CMShareModel.m */; };
-		8519795220F7746F00D852BF /* CMShareModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8519794420F7746E00D852BF /* CMShareModel.h */; };
-		8519795320F7746F00D852BF /* WechatApiRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8519794520F7746E00D852BF /* WechatApiRequestHandler.m */; };
-		8519795420F7746F00D852BF /* CMShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8519794620F7746F00D852BF /* CMShareManager.m */; };
-		8519795520F7746F00D852BF /* CMShareHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8519794720F7746F00D852BF /* CMShareHelper.m */; };
-		8519795620F7746F00D852BF /* WechatConfiguredMessageData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8519794820F7746F00D852BF /* WechatConfiguredMessageData.h */; };
-		8519795720F7746F00D852BF /* WechatConfiguredMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8519794920F7746F00D852BF /* WechatConfiguredMessageData.m */; };
-		8519795820F7746F00D852BF /* WechatApiRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8519794A20F7746F00D852BF /* WechatApiRequestHandler.h */; };
-		8519795920F7746F00D852BF /* CMShareHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8519794B20F7746F00D852BF /* CMShareHelper.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F478AFD20FDE2DE00E0660D /* QQApiRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQApiRequestHandler.h; sourceTree = "<group>"; };
+		0F478AFE20FDE2DE00E0660D /* CMShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMShareManager.h; sourceTree = "<group>"; };
+		0F478AFF20FDE2DE00E0660D /* CMShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMShareManager.m; sourceTree = "<group>"; };
+		0F478B0020FDE2DF00E0660D /* CMShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMShareModel.h; sourceTree = "<group>"; };
+		0F478B0120FDE2DF00E0660D /* CMShareHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMShareHelper.h; sourceTree = "<group>"; };
+		0F478B0220FDE2DF00E0660D /* WechatApiRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatApiRequestHandler.h; sourceTree = "<group>"; };
+		0F478B0320FDE2DF00E0660D /* WechatConfiguredMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatConfiguredMessageData.h; sourceTree = "<group>"; };
+		0F478B0420FDE2DF00E0660D /* WechatApiRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WechatApiRequestHandler.m; sourceTree = "<group>"; };
+		0F478B0520FDE2DF00E0660D /* QQApiRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQApiRequestHandler.m; sourceTree = "<group>"; };
+		0F478B0620FDE2DF00E0660D /* CMShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMShareModel.m; sourceTree = "<group>"; };
+		0F478B0720FDE2DF00E0660D /* WechatConfiguredMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WechatConfiguredMessageData.m; sourceTree = "<group>"; };
+		0F478B0820FDE2DF00E0660D /* CMShareHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMShareHelper.m; sourceTree = "<group>"; };
+		0F478B0920FDE2DF00E0660D /* CMShareEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMShareEnums.h; sourceTree = "<group>"; };
 		537D8D598E982DD2EE7535ED /* Pods-CMShareSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMShareSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-CMShareSDK/Pods-CMShareSDK.release.xcconfig"; sourceTree = "<group>"; };
 		5434C7E6470B623A5833E73E /* libPods-CMShareSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CMShareSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8519788320F7317200D852BF /* CMShareSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CMShareSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,19 +59,6 @@
 		8519789320F7317200D852BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8519793620F7712600D852BF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8519793E20F7746E00D852BF /* CMShareSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMShareSDK.h; sourceTree = "<group>"; };
-		8519793F20F7746E00D852BF /* QQApiRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQApiRequestHandler.h; sourceTree = "<group>"; };
-		8519794020F7746E00D852BF /* CMShareEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMShareEnums.h; sourceTree = "<group>"; };
-		8519794120F7746E00D852BF /* CMShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMShareManager.h; sourceTree = "<group>"; };
-		8519794220F7746E00D852BF /* QQApiRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQApiRequestHandler.m; sourceTree = "<group>"; };
-		8519794320F7746E00D852BF /* CMShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMShareModel.m; sourceTree = "<group>"; };
-		8519794420F7746E00D852BF /* CMShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMShareModel.h; sourceTree = "<group>"; };
-		8519794520F7746E00D852BF /* WechatApiRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WechatApiRequestHandler.m; sourceTree = "<group>"; };
-		8519794620F7746F00D852BF /* CMShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMShareManager.m; sourceTree = "<group>"; };
-		8519794720F7746F00D852BF /* CMShareHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMShareHelper.m; sourceTree = "<group>"; };
-		8519794820F7746F00D852BF /* WechatConfiguredMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatConfiguredMessageData.h; sourceTree = "<group>"; };
-		8519794920F7746F00D852BF /* WechatConfiguredMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WechatConfiguredMessageData.m; sourceTree = "<group>"; };
-		8519794A20F7746F00D852BF /* WechatApiRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatApiRequestHandler.h; sourceTree = "<group>"; };
-		8519794B20F7746F00D852BF /* CMShareHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMShareHelper.h; sourceTree = "<group>"; };
 		8519795E20F8421000D852BF /* CMShareSDK_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMShareSDK_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B94A4A90D9DF9F4A420B704 /* Pods-CMShareSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMShareSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CMShareSDK/Pods-CMShareSDK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,20 +122,20 @@
 		8519788520F7317200D852BF /* CMShareSDK */ = {
 			isa = PBXGroup;
 			children = (
+				0F478B0920FDE2DF00E0660D /* CMShareEnums.h */,
+				0F478B0120FDE2DF00E0660D /* CMShareHelper.h */,
+				0F478B0820FDE2DF00E0660D /* CMShareHelper.m */,
+				0F478AFE20FDE2DE00E0660D /* CMShareManager.h */,
+				0F478AFF20FDE2DE00E0660D /* CMShareManager.m */,
+				0F478B0020FDE2DF00E0660D /* CMShareModel.h */,
+				0F478B0620FDE2DF00E0660D /* CMShareModel.m */,
+				0F478AFD20FDE2DE00E0660D /* QQApiRequestHandler.h */,
+				0F478B0520FDE2DF00E0660D /* QQApiRequestHandler.m */,
+				0F478B0220FDE2DF00E0660D /* WechatApiRequestHandler.h */,
+				0F478B0420FDE2DF00E0660D /* WechatApiRequestHandler.m */,
+				0F478B0320FDE2DF00E0660D /* WechatConfiguredMessageData.h */,
+				0F478B0720FDE2DF00E0660D /* WechatConfiguredMessageData.m */,
 				8519793E20F7746E00D852BF /* CMShareSDK.h */,
-				8519794020F7746E00D852BF /* CMShareEnums.h */,
-				8519794B20F7746F00D852BF /* CMShareHelper.h */,
-				8519794720F7746F00D852BF /* CMShareHelper.m */,
-				8519794120F7746E00D852BF /* CMShareManager.h */,
-				8519794620F7746F00D852BF /* CMShareManager.m */,
-				8519794420F7746E00D852BF /* CMShareModel.h */,
-				8519794320F7746E00D852BF /* CMShareModel.m */,
-				8519793F20F7746E00D852BF /* QQApiRequestHandler.h */,
-				8519794220F7746E00D852BF /* QQApiRequestHandler.m */,
-				8519794A20F7746F00D852BF /* WechatApiRequestHandler.h */,
-				8519794520F7746E00D852BF /* WechatApiRequestHandler.m */,
-				8519794820F7746F00D852BF /* WechatConfiguredMessageData.h */,
-				8519794920F7746F00D852BF /* WechatConfiguredMessageData.m */,
 				8519793620F7712600D852BF /* Info.plist */,
 			);
 			path = CMShareSDK;
@@ -166,14 +166,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8519795920F7746F00D852BF /* CMShareHelper.h in Headers */,
-				8519794F20F7746F00D852BF /* CMShareManager.h in Headers */,
-				8519795220F7746F00D852BF /* CMShareModel.h in Headers */,
-				8519794D20F7746F00D852BF /* QQApiRequestHandler.h in Headers */,
-				8519794E20F7746F00D852BF /* CMShareEnums.h in Headers */,
-				8519795620F7746F00D852BF /* WechatConfiguredMessageData.h in Headers */,
+				0F478B0D20FDE2DF00E0660D /* CMShareModel.h in Headers */,
+				0F478B1020FDE2DF00E0660D /* WechatConfiguredMessageData.h in Headers */,
+				0F478B0A20FDE2DF00E0660D /* QQApiRequestHandler.h in Headers */,
+				0F478B0E20FDE2DF00E0660D /* CMShareHelper.h in Headers */,
 				8519794C20F7746F00D852BF /* CMShareSDK.h in Headers */,
-				8519795820F7746F00D852BF /* WechatApiRequestHandler.h in Headers */,
+				0F478B0F20FDE2DF00E0660D /* WechatApiRequestHandler.h in Headers */,
+				0F478B0B20FDE2DF00E0660D /* CMShareManager.h in Headers */,
+				0F478B1620FDE2DF00E0660D /* CMShareEnums.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,12 +346,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8519795020F7746F00D852BF /* QQApiRequestHandler.m in Sources */,
-				8519795720F7746F00D852BF /* WechatConfiguredMessageData.m in Sources */,
-				8519795420F7746F00D852BF /* CMShareManager.m in Sources */,
-				8519795520F7746F00D852BF /* CMShareHelper.m in Sources */,
-				8519795320F7746F00D852BF /* WechatApiRequestHandler.m in Sources */,
-				8519795120F7746F00D852BF /* CMShareModel.m in Sources */,
+				0F478B1420FDE2DF00E0660D /* WechatConfiguredMessageData.m in Sources */,
+				0F478B0C20FDE2DF00E0660D /* CMShareManager.m in Sources */,
+				0F478B1320FDE2DF00E0660D /* CMShareModel.m in Sources */,
+				0F478B1520FDE2DF00E0660D /* CMShareHelper.m in Sources */,
+				0F478B1220FDE2DF00E0660D /* QQApiRequestHandler.m in Sources */,
+				0F478B1120FDE2DF00E0660D /* WechatApiRequestHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
