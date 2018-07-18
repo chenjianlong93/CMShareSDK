@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0F478B0A20FDE2DF00E0660D /* QQApiRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F478AFD20FDE2DE00E0660D /* QQApiRequestHandler.h */; };
-		0F478B0B20FDE2DF00E0660D /* CMShareManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F478AFE20FDE2DE00E0660D /* CMShareManager.h */; };
+		0F478B0B20FDE2DF00E0660D /* CMShareManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F478AFE20FDE2DE00E0660D /* CMShareManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F478B0C20FDE2DF00E0660D /* CMShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F478AFF20FDE2DE00E0660D /* CMShareManager.m */; };
-		0F478B0D20FDE2DF00E0660D /* CMShareModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F478B0020FDE2DF00E0660D /* CMShareModel.h */; };
+		0F478B0D20FDE2DF00E0660D /* CMShareModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F478B0020FDE2DF00E0660D /* CMShareModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F478B0E20FDE2DF00E0660D /* CMShareHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F478B0120FDE2DF00E0660D /* CMShareHelper.h */; };
 		0F478B0F20FDE2DF00E0660D /* WechatApiRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F478B0220FDE2DF00E0660D /* WechatApiRequestHandler.h */; };
 		0F478B1020FDE2DF00E0660D /* WechatConfiguredMessageData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F478B0320FDE2DF00E0660D /* WechatConfiguredMessageData.h */; };
@@ -19,12 +19,12 @@
 		0F478B1320FDE2DF00E0660D /* CMShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F478B0620FDE2DF00E0660D /* CMShareModel.m */; };
 		0F478B1420FDE2DF00E0660D /* WechatConfiguredMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F478B0720FDE2DF00E0660D /* WechatConfiguredMessageData.m */; };
 		0F478B1520FDE2DF00E0660D /* CMShareHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F478B0820FDE2DF00E0660D /* CMShareHelper.m */; };
-		0F478B1620FDE2DF00E0660D /* CMShareEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F478B0920FDE2DF00E0660D /* CMShareEnums.h */; };
+		0F478B1620FDE2DF00E0660D /* CMShareEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F478B0920FDE2DF00E0660D /* CMShareEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4771FE07B6C2ED064530288F /* libPods-CMShareSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5434C7E6470B623A5833E73E /* libPods-CMShareSDK.a */; };
 		8519788D20F7317200D852BF /* CMShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8519788320F7317200D852BF /* CMShareSDK.framework */; };
 		8519789220F7317200D852BF /* CMShareSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8519789120F7317200D852BF /* CMShareSDKTests.m */; };
 		8519793720F7712600D852BF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8519793620F7712600D852BF /* Info.plist */; };
-		8519794C20F7746F00D852BF /* CMShareSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8519793E20F7746E00D852BF /* CMShareSDK.h */; };
+		8519794C20F7746F00D852BF /* CMShareSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8519793E20F7746E00D852BF /* CMShareSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,14 +166,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F478B1620FDE2DF00E0660D /* CMShareEnums.h in Headers */,
+				0F478B0B20FDE2DF00E0660D /* CMShareManager.h in Headers */,
+				8519794C20F7746F00D852BF /* CMShareSDK.h in Headers */,
 				0F478B0D20FDE2DF00E0660D /* CMShareModel.h in Headers */,
 				0F478B1020FDE2DF00E0660D /* WechatConfiguredMessageData.h in Headers */,
 				0F478B0A20FDE2DF00E0660D /* QQApiRequestHandler.h in Headers */,
 				0F478B0E20FDE2DF00E0660D /* CMShareHelper.h in Headers */,
-				8519794C20F7746F00D852BF /* CMShareSDK.h in Headers */,
 				0F478B0F20FDE2DF00E0660D /* WechatApiRequestHandler.h in Headers */,
-				0F478B0B20FDE2DF00E0660D /* CMShareManager.h in Headers */,
-				0F478B1620FDE2DF00E0660D /* CMShareEnums.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +501,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B94A4A90D9DF9F4A420B704 /* Pods-CMShareSDK.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -510,6 +511,7 @@
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = CMShareSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -529,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 537D8D598E982DD2EE7535ED /* Pods-CMShareSDK.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -538,6 +541,7 @@
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = CMShareSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
